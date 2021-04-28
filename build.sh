@@ -2,4 +2,4 @@
 
 # Example build line
 
-docker build -t "TestJmeterCMujica" .
+docker build -t "testcmujica" .

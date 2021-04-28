@@ -3,7 +3,7 @@
 # Run JMeter Docker image with options
 
 NAME="jmeter"
-IMAGE="TestJmeterCMujica"
+IMAGE="testcmujica"
 
 # Finally run
 sudo docker stop ${NAME} > /dev/null 2>&1
