@@ -1,10 +1,5 @@
 #!/bin/bash
-
 # Inspired from https://github.com/justb4/docker-jmeter
-# Basically runs jmeter, assuming the PATH is set to point to JMeter bin-dir (see Dockerfile)
-#
-# This script expects the standdard JMeter command parameters.
-#
 
 set -e
 freeMem=`awk '/MemFree/ { print int($2/1024) }' /proc/meminfo`

@@ -2,7 +2,7 @@
 FROM alpine:3.11
 
 # 2 Maintainer name
-LABEL maintainer="antonio@flood.io"
+LABEL maintainer="christian@example.io"
 
 # 3 Set JMeter version 5.2.1 for downloading and some ENV variables
 ENV JMETER_VERSION 5.2.1
