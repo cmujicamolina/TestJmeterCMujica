@@ -1,7 +1,9 @@
 -----------------------------------------
 --Docker imagen para Apache JMeter 5.3--
 ----------------------------------------
-git clone https://github.com/cmujicamolina/TestJmeterCMujica.git
+Bajar de docker la imagen: docker pull christianedwinmm1/testcmujica:latest
+
+Clonar fuentes al local: git clone https://github.com/cmujicamolina/TestJmeterCMujica.git
 
 cd TestJmeterCMujica
 
